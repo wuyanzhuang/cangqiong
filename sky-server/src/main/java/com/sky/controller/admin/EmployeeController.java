@@ -82,7 +82,7 @@ public class EmployeeController {
     public Result save(@RequestBody EmployeeDTO employeeDTO){
         employeeService.save(employeeDTO);
 
-        return pass;
+        return Result.success();
     }
 
 }

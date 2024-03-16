@@ -15,5 +15,4 @@ public interface EmployeeService {
 
     void save(EmployeeDTO employeeDTO);
 
-    void save()
 }
